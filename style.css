@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: darkblue;
+    display: grid;
+  column-gap: 5px;
+  grid-template-columns: 130px 130px;
+  padding: 10px;
+}
+.header .text{
+      background-color: aqua;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 7px;
+      border-radius: 7px;   
+}
+.header-text{
+    padding: 30px;
+    display: inline-block;
+}
+.header-text .text{
+    background-color: darkblue;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+}
+.header-text .left .text{
+    display: grid;
+    background-color: aqua;
+    margin: 0px 600px;
+    height: 6px;
+    display: inline-block;
+    flex-flow: row;
+}
+.main{
+    background-color: darkblue;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+}
+.main .text{
+    margin: 35px 20px;
+    width: 100px;
+    height: 6px;
+    flex-flow: row;
+    background-color: aqua;
+}
+.main .text1{
+     background-color: white;
+     width: 60px;
+     height: 6px;
+     flex-flow: row;
+     margin: 100px 5px;
+}
+.marg{
+    margin: 50px;
+    height: 400px;
+}
+.end{
+    display: flex;
+    justify-content: center;
+}
+.end .text{
+    background-color: aqua;
+    margin: 30px 15px;
+    border-radius: 10px;
+    width: 60px;
+    height: 6px;
+}
+.footer{
+    display: flex;
+}
+.footer .text{
+    margin: 0px 50px;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.endtext{
+    display: flex;
+    justify-content: center;
+}
+.endtext .text{
+    background-color: aqua;
+    margin: 30px 15px;
+    border-radius: 10px;
+    width: 60px;
+    height: 6px;
+}
+
